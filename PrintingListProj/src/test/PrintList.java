@@ -13,12 +13,12 @@ public class PrintList {
 		list.add("siva");
 		list.add("ramu");
 		list.add("ramesh");
-
+		System.out.println("Process Started");
 		for (int i = 0; i < 4; i++) {
-
 			System.out.println(list.get(i));
-
 		}
+
+		System.out.println("Process ended");
 
 	}
 
